@@ -20,6 +20,7 @@ import java.util.List;
 
 @Controller
 public class FirstWebsiteController {
+
     @Autowired
     GameRepository games;
 
@@ -43,7 +44,7 @@ public class FirstWebsiteController {
             gameList = (List<Game>) games.findAll();
         }
         model.addAttribute("games", gameList);
-        return "home";
+        return "index";
     }
 
     @RequestMapping(path = "/login", method = RequestMethod.POST)
