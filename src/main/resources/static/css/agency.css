@@ -28,6 +28,9 @@ a.active {
   outline: none;
 }
 a {
+/*
+ #fe - yellows
+*/
   color: #fed136;
 }
 a:hover,
@@ -69,7 +72,9 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
+  /* fe - yellow */
   background-color: #fec503;
+  /* darker hue border */
   border-color: #f6bf01;
 }
 .btn-primary:active,
